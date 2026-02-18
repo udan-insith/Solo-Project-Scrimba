@@ -11,4 +11,7 @@ function renderStockTicket(stockData) {
     const stockDisplayPrice = document.getElementById('price')
     const stockDisplayPriceIcon = document.getElementById('price-icon')
     const stockDisplayTime = document.getElementById('time')
+
+    const { name, sym, price, time } = stockData
+    
 }
